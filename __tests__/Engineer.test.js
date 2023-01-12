@@ -1,6 +1,6 @@
 // Import Engineer Constructor
 
-const Engineer = require('../lib/Engineer');
+const Engineer = require('../lib/engineer');
 
 // Creates An Engineer Object
 
