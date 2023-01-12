@@ -1,6 +1,6 @@
 // Import Employee Constructor
 
-const Employee = require('../lib/employee');
+const Employee = require('../lib/Employee');
 
 // Creates An Employee Object
 

@@ -1,6 +1,6 @@
 // Import Intern Constructor
 
-const Intern = require('../lib/intern');
+const Intern = require('../lib/Intern');
 
 // Creates An Intern Object
 

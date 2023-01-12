@@ -1,6 +1,6 @@
 // Import Manager Constructor
 
-const Manager = require('../lib/manager');
+const Manager = require('../lib/Manager');
 
 // Creates A Manager Object
 
