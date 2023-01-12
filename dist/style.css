@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: lightslategray;
+  --secondary: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.card-header {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px auto;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+#navbar {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: 50px;
+}
