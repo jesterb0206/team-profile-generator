@@ -3,22 +3,41 @@
 }
 
 :root {
-  --primary: lightslategray;
-  --secondary: white;
+  --primary: #adefd1ff;
+  --secondary: #00203fff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+  font-family: 'Architects Daughter', cursive;
 }
 
 .card-body {
-  background-color: var(--secondary);
-  color: var(--primary);
+  background-color: white;
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
 }
 
 .card-header {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  color: white;
 }
 
 .container {
@@ -32,7 +51,7 @@ body {
 }
 
 #navbar {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: white;
   font-size: 50px;
 }
