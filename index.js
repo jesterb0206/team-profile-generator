@@ -214,3 +214,32 @@ const addEmployee = () => {
       }
     });
 };
+
+// A Function That Generates An HTML Page Using The File System
+
+const writeFile = (data) => {
+  fs.writeFile('./dist/index.html', data, (err) => {
+    // If An Error Occurs Log It To The Console
+    if (err) {
+      console.log(err);
+      return;
+      // Notifies The User That Everything Worked Properly
+    } else {
+      console.log(
+        'Your team profile was successfully created! To check it out go to the dist folder and open the index.html file in Live Server!'
+      );
+    }
+  });
+};
+
+addManager()
+  .then(addEmployee)
+  .then((teamArray) => {
+    return generateHTML(teamArray);
+  })
+  .then((pageHTML) => {
+    return writeFile(pageHTML);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
