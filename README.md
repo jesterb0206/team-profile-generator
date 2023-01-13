@@ -15,6 +15,12 @@
 
 <br>
 
+<h3 align="left">Click on the video link below to learn how to use the Team Profile Generator ⬇️</h3>
+
+<br>
+
+<p align="left"> <a href="https://youtu.be/tmwwfsKCHkM" target="_blank" rel="noopener">Team Profile Generator Walkthrough YouTube Video</a></p>
+
 <br>
 
 ## Table of Contents
