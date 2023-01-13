@@ -19,6 +19,26 @@ A Node.js command-line application that takes in information about employees on 
 
 <br>
 
+## Usage
+
+<br>
+
+To begin, the application is invoked by using the following command: `node index.js`. From there, you be asked to add a **manager**. Please enter their name, ID, email address, and office number. You can also add an **engineer** (or multiple engineers) and an **intern** (or multiple interns). Please enter an engineer's name, ID, email address, and GitHub username and an intern's name, ID, email address, and the school that they're currently attending.
+
+<br>
+
+![Inquirer Prompts](assets/inquirer.png)
+
+<br>
+
+When you're all finished you can find the generated index.html file in the `dist` folder where you can view it in the browser.
+
+<br>
+
+![Output](assets/output.png)
+
+<br>
+
 ## Badges
 
 <br>
