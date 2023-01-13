@@ -15,7 +15,7 @@
 
 <br>
 
-A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. **Team Profile Generator** uses `Jest` for running unit tests and `Inquirer` for collecting user input. It also features validation to ensure that user input provided is in the proper expected format. **Team Profile Generator** used both `Object Oriented Programming` and `Test Driven Development` in its development.
 
 <br>
 
