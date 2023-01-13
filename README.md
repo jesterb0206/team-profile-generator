@@ -19,6 +19,14 @@ A Node.js command-line application that takes in information about employees on 
 
 <br>
 
+## Installation
+
+<br>
+
+Clone the repository to your local machine, open your terminal, and navigate to the root folder in the **Team Profile Generator** repository. To install the necessary dependencies, run `npm i` in your command-line terminal.
+
+<br>
+
 ## Usage
 
 <br>
